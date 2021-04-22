@@ -1,23 +1,21 @@
-
-
-p {
-    font-size: 20px;
-}
-
 .nav-bar {
     display: grid;
    grid-template-columns: 60px 60px 1fr 50px 50px 50px auto ;
    align-items:center;
    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+   color:rgb(66, 66, 66);
    height: auto;
-   padding: 0px 0px 20px 0px;
+   padding: 0px 0px 0px 0px;
    margin: 12px 10px 0px;
+   border-width: 2px;
+   border-color:#5f6368;
 }
 
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .nav-link-left {
@@ -48,4 +46,88 @@ p {
 
 .nav-link:hover  {
     text-decoration: underline;
+}
+
+
+.logo {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 150px 0px 30px;
+
+}
+
+.form-wrap {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    border-style: solid;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 20px;
+    width: 480px;
+    height: 40px;
+    align-content:center;
+    margin: auto;
+
+}
+
+#search {
+    
+    padding: 5px 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    border-color:transparent;
+    background-color: transparent;
+
+}
+#search:focus {
+    outline:none;
+}
+
+.buttons {
+    display: flex;
+    margin: 0px 20px 0px;
+    justify-content:center;
+    padding: 10px;
+}
+
+.button {
+    margin:15px;
+    background-color:rgb(240, 240, 240) ;
+    border-color: transparent;
+    font-family:'Open Sans';
+    color: rgb(83, 83, 83);
+    padding: 5px 10px;
+    font-size: 14px
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+
+}
+
+.footer {
+
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    display: grid;
+    grid-template-columns: Auto auto auto 1fr auto auto auto;
+    justify-content: center;
+    width:100%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 0px 10px;
+    border-top:1px solid rgb(226, 226, 226);
+
+}
+
+.footer-link {
+    padding: 0px 15px 8px;
+    display:flex;
+    align-self: flex-end;
+    font-family: 'Open Sans';;
+    text-decoration: none;
+    color: rgb(104, 104, 104) ;
+    font-size: 14px;
 }
