@@ -1,4 +1,51 @@
 
+
 p {
-    font-size: 2px;
+    font-size: 20px;
+}
+
+.nav-bar {
+    display: grid;
+   grid-template-columns: 60px 60px 1fr 50px 50px 50px auto ;
+   align-items:center;
+   font-family: 'Open Sans', 'Times New Roman', Times, serif;
+   height: auto;
+   padding: 0px 0px 20px 0px;
+   margin: 12px 10px 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-left {
+    font-size: 13px;
+    text-align:center;
+}
+
+.nav-link-right {
+    font-size: 12px;
+    border-radius: 5px;
+    text-align:center;
+}
+
+#sign-in {
+    font-size:15px;
+    padding: 2px 2px 4px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    text-align:center;
+}
+
+#apps-icon {
+   color:#5f6368;
+}
+
+.nav-link:hover  {
+    text-decoration: underline;
 }
